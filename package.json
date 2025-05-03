@@ -1,8 +1,8 @@
 {
-  "homepage": "http://sankar-mechengg.github.io/lang-port",
+  "homepage": "https://sankar-mechengg.github.io/lang-port/",
   "name": "language-learning-flashcard-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
