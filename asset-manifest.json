@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lang-port/static/css/main.711488b0.css",
-    "main.js": "/lang-port/static/js/main.cb4a772d.js",
+    "main.js": "/lang-port/static/js/main.fc23418b.js",
     "static/media/langport_icon_cp.png": "/lang-port/static/media/langport_icon_cp.666179955d3486eeb8ca.png",
     "index.html": "/lang-port/index.html",
     "main.711488b0.css.map": "/lang-port/static/css/main.711488b0.css.map",
-    "main.cb4a772d.js.map": "/lang-port/static/js/main.cb4a772d.js.map"
+    "main.fc23418b.js.map": "/lang-port/static/js/main.fc23418b.js.map"
   },
   "entrypoints": [
     "static/css/main.711488b0.css",
-    "static/js/main.cb4a772d.js"
+    "static/js/main.fc23418b.js"
   ]
 }
