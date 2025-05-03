@@ -7,7 +7,7 @@ import Footer from "./components/common/Footer.jsx";
 export default function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/lang-port">
         <Header />
         <AppRoutes />
         <Footer />
