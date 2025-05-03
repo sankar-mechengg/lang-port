@@ -1,0 +1,238 @@
+export const tamilFlashcards = {
+  categories: {
+    Basic: [
+      { jp: "வணக்கம்", romaji: "Vaṇakkam", en: "Hello" },
+      { jp: "நன்றி", romaji: "Naṉṟi", en: "Thank you" },
+      { jp: "மன்னிக்கவும்", romaji: "Maṉṉikkavum", en: "Sorry" },
+      { jp: "தயவு செய்து", romaji: "Tayavu seytu", en: "Please" },
+      { jp: "ஆம்", romaji: "Ām", en: "Yes" },
+      { jp: "இல்லை", romaji: "Illai", en: "No" },
+      {
+        jp: "எனக்கு தமிழ் தெரியாது",
+        romaji: "Eṉakku Tamil teriyātu",
+        en: "I don't speak Tamil",
+      },
+      {
+        jp: "நீங்கள் ஆங்கிலம் பேசுகிறீர்களா?",
+        romaji: "Nīṅkaḷ āṅkilam pēcukirīrkaḷā?",
+        en: "Do you speak English?",
+      },
+      { jp: "சரி", romaji: "Sari", en: "Okay" },
+      {
+        jp: "உதவி செய்ய முடியுமா?",
+        romaji: "Utavi seyya muḍiyumā?",
+        en: "Can you help me?",
+      },
+      {
+        jp: "எப்படி இருக்கிறீர்கள்?",
+        romaji: "Eppaṭi irukkiṟīrkaḷ?",
+        en: "How are you?",
+      },
+      {
+        jp: "நான் நன்றாக இருக்கிறேன்",
+        romaji: "Nāṉ naṉṟāka irukkiṟēṉ",
+        en: "I am fine",
+      },
+      {
+        jp: "உங்கள் பெயர் என்ன?",
+        romaji: "Uṅkaḷ peyar eṉṉa?",
+        en: "What is your name?",
+      },
+      { jp: "என் பெயர்...", romaji: "Eṉ peyar...", en: "My name is..." },
+      {
+        jp: "உங்களை சந்தித்து மகிழ்ச்சி",
+        romaji: "Uṅkaḷai cantittu makiḻcci",
+        en: "Nice to meet you",
+      },
+      {
+        jp: "தயவு செய்து மெதுவாக பேசுங்கள்",
+        romaji: "Tayavu seytu metuvāka pēcuṅkaḷ",
+        en: "Please speak slowly",
+      },
+      {
+        jp: "மீண்டும் சொல்லுங்கள்",
+        romaji: "Mīṇṭum colluṅkaḷ",
+        en: "Please say it again",
+      },
+      {
+        jp: "நான் புரிந்துகொள்கிறேன்",
+        romaji: "Nāṉ purintukoḷkiṟēṉ",
+        en: "I understand",
+      },
+      {
+        jp: "நான் புரியவில்லை",
+        romaji: "Nāṉ puriyavillai",
+        en: "I don't understand",
+      },
+      {
+        jp: "இந்த வார்த்தை என்ன அர்த்தம்?",
+        romaji: "Inta vārttai eṉṉa arttham?",
+        en: "What does this word mean?",
+      },
+      { jp: "வணக்கம்", romaji: "Vaṇakkam", en: "Hello" },
+      { jp: "நன்றி", romaji: "Naṉṟi", en: "Thank you" },
+      { jp: "மன்னிக்கவும்", romaji: "Maṉṉikkavum", en: "Sorry" },
+      { jp: "தயவு செய்து", romaji: "Tayavu seytu", en: "Please" },
+      { jp: "ஆம்", romaji: "Ām", en: "Yes" },
+      { jp: "இல்லை", romaji: "Illai", en: "No" },
+      {
+        jp: "எனக்கு தமிழ் தெரியாது",
+        romaji: "Eṉakku Tamil teriyātu",
+        en: "I don't speak Tamil",
+      },
+      {
+        jp: "நீங்கள் ஆங்கிலம் பேசுகிறீர்களா?",
+        romaji: "Nīṅkaḷ āṅkilam pēcukirīrkaḷā?",
+        en: "Do you speak English?",
+      },
+      {
+        jp: "எனக்கு உதவி வேண்டும்",
+        romaji: "Eṉakku utavi vēṇṭum",
+        en: "I need help",
+      },
+      { jp: "சரி", romaji: "Sari", en: "Okay" },
+      {
+        jp: "மீண்டும் கூறுங்கள்",
+        romaji: "Mīṇḍum kūruṅkaḷ",
+        en: "Please repeat",
+      },
+      {
+        jp: "மெதுவாக பேசுங்கள்",
+        romaji: "Metuvāka pēcuṅkaḷ",
+        en: "Speak slowly",
+      },
+      {
+        jp: "நான் நன்றாக இருக்கிறேன்",
+        romaji: "Nāṉ naṉṟāka irukkiṟēṉ",
+        en: "I'm fine",
+      },
+      {
+        jp: "நீங்கள் எப்படி இருக்கிறீர்கள்?",
+        romaji: "Nīṅkaḷ eppaṭi irukkiṟīrkaḷ?",
+        en: "How are you?",
+      },
+      {
+        jp: "உங்கள் பெயர் என்ன?",
+        romaji: "Uṅkaḷ peyar eṉṉa?",
+        en: "What is your name?",
+      },
+      { jp: "என் பெயர்...", romaji: "Eṉ peyar...", en: "My name is..." },
+      {
+        jp: "மகிழ்ந்தேன் உங்களை சந்தித்ததில்",
+        romaji: "Makiḻntēṉ uṅkaḷai cantittatil",
+        en: "Nice to meet you",
+      },
+      {
+        jp: "பார்க்க சந்தோஷம்",
+        romaji: "Pārkka cantōṣam",
+        en: "Happy to see you",
+      },
+      {
+        jp: "நீங்கள் எங்கே இருக்கிறீர்கள்?",
+        romaji: "Nīṅkaḷ eṅkē irukkiṟīrkaḷ?",
+        en: "Where are you from?",
+      },
+      {
+        jp: "நான் இந்தியாவிலிருந்து வந்தேன்",
+        romaji: "Nāṉ intiyāviliruntu vantēṉ",
+        en: "I am from India",
+      },
+      { jp: "நான் ஒரு பயணி", romaji: "Nāṉ oru payaṇi", en: "I am a tourist" },
+      { jp: "இது என்ன?", romaji: "Itu eṉṉa?", en: "What is this?" },
+      { jp: "எப்படி செல்வது?", romaji: "Eppaṭi celvatu?", en: "How to go?" },
+      {
+        jp: "இதற்கு எவ்வளவு?",
+        romaji: "Itarku evvaḷavu?",
+        en: "How much is this?",
+      },
+      {
+        jp: "மன்னிக்கவும், எனக்கு புரியவில்லை",
+        romaji: "Maṉṉikkavum, eṉakku puriyavillai",
+        en: "Sorry, I don't understand",
+      },
+      {
+        jp: "நீங்கள் இந்த இடத்தை அறிந்திருக்கிறீர்களா?",
+        romaji: "Nīṅkaḷ inta iṭattai aṟintirukkiṟīrkaḷā?",
+        en: "Do you know this place?",
+      },
+      {
+        jp: "தயவு செய்து உதவுங்கள்",
+        romaji: "Tayavu seytu utavuṅkaḷ",
+        en: "Please help me",
+      },
+      {
+        jp: "அதை மீண்டும் சொல்லுங்கள்",
+        romaji: "Atai mīṇḍum colluṅkaḷ",
+        en: "Say that again please",
+      },
+      {
+        jp: "நான் இங்கே புதியவனாக இருக்கிறேன்",
+        romaji: "Nāṉ iṅkē putiyavaṉāka irukkiṟēṉ",
+        en: "I am new here",
+      },
+      {
+        jp: "எனக்கு இது பிடிக்கிறது",
+        romaji: "Eṉakku itu piṭikkiṟatu",
+        en: "I like this",
+      },
+      {
+        jp: "இது மிகவும் நன்றாக இருக்கிறது",
+        romaji: "Itu mikavum naṉṟāka irukkiṟatu",
+        en: "This is very good",
+      },
+      {
+        jp: "தயவு செய்து இது எடுங்கள்",
+        romaji: "Tayavu seytu itu eṭuṅkaḷ",
+        en: "Please take this",
+      },
+      {
+        jp: "நான் சற்று நழுவி விட்டேன்",
+        romaji: "Nāṉ caṟṟu naḻuvi viṭṭēṉ",
+        en: "I slipped a bit",
+      },
+      {
+        jp: "இங்கே பாதுகாப்பா?",
+        romaji: "Iṅkē pāthukāppā?",
+        en: "Is it safe here?",
+      },
+      {
+        jp: "தயவு செய்து ஒரு மருத்துவரை அழைக்கவும்",
+        romaji: "Tayavu seytu oru maruttuvurai aḻaikkavum",
+        en: "Please call a doctor",
+      },
+      {
+        jp: "வாகன நிறுத்தம் எங்கே?",
+        romaji: "Vākana niṟuttam eṅkē?",
+        en: "Where is the parking?",
+      },
+      {
+        jp: "எனக்கு இந்த முகவரியை காண வேண்டும்",
+        romaji: "Eṉakku inta mukavariyai kāṇa vēṇṭum",
+        en: "I need to find this address",
+      },
+      {
+        jp: "மீட்டிங் எப்போது?",
+        romaji: "Mīṭṭiṅk eppōtu?",
+        en: "When is the meeting?",
+      },
+      {
+        jp: "நான் அழைக்கப்போயிருக்கிறேன்",
+        romaji: "Nāṉ aḻaikkappōyirukkiṟēṉ",
+        en: "I was invited",
+      },
+      {
+        jp: "உங்களிடம் ஒரு கேள்வி உண்டு",
+        romaji: "Uṅkaḷiṭam oru kēḷvi uṇṭu",
+        en: "I have a question",
+      },
+      {
+        jp: "நான் தமிழில் எழுத முடியுமா?",
+        romaji: "Nāṉ Tamilil ezhutha muḍiyumā?",
+        en: "Can I write in Tamil?",
+      },
+    ],
+    Travel: [],
+    Stay: [],
+    Food: [],
+  },
+};

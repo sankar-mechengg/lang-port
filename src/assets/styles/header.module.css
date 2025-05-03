@@ -1,0 +1,74 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  /* glass-morphism */
+  background: rgba(109, 109, 109, 0.35); /* dark translucent glass */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+}
+
+.logo {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #2a5492;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+
+.logoImage {
+  width: 40px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 0.5rem; /* Add spacing between the image and text */
+  vertical-align: middle;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav a {
+  position: relative;
+  font-weight: 500;
+  color: #920000;
+  text-decoration: none;
+  padding: 0.25rem 0;
+  transition: opacity 0.25s ease;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav a:hover {
+  opacity: 0.8;
+}
+
+/* Slim yellow bar – appears on hover AND when the route is active */
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 3px;
+  background: #ffd54f; /* soft yellow */
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.nav a:hover::after,
+.active::after {
+  width: 100%;
+}
+
+.lang {
+  font-size: 0.9rem;
+  color: #2b2b2b;
+  opacity: 0.9;
+}

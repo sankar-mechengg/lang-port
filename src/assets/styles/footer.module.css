@@ -1,0 +1,19 @@
+.footer {
+  background: rgba(0, 0, 0, 0.9); /* darker glass */
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(10px) saturate(160%);
+  color: #e7e7e7;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #ffd54f; /* same yellow accent */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
